@@ -61,3 +61,9 @@ An advanced resume analysis tool powered by LLaMA-3.1-70B (via Groq) to help job
 3. Enter the Target Job Title and Job Description.
 4. Click "Analyze Resume".
 5. View the detailed report and recommendations.
+
+##Screenshots
+
+<img width="1920" height="990" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/3a785e9e-8a80-4e47-89c9-42b87edc48be" />
+<img width="1920" height="997" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/00035aa3-82d8-45d4-beca-0034ea506477" />
+<img width="1920" height="1005" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/5bf79bf0-d807-4f94-876d-a73729df306a" />
