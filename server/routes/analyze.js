@@ -8,10 +8,14 @@ const router = express.Router();
 // Configure multer for memory storage
 const upload = multer({
     storage: multer.memoryStorage(),
-    limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+    limits: {
+        fileSize: 5 * 1024 * 1024, // 5MB limit
+        fieldSize: 10 * 1024 * 1024 // 10MB limit for text fields
+    },
 });
 
 router.post('/', upload.single('resume'), async (req, res) => {
+    console.log('Received analyze request');
     try {
         if (!req.file) {
             return res.status(400).json({ error: 'No resume file uploaded' });

@@ -29,7 +29,7 @@
   - `chart.js`, `react-chartjs-2`: Visualizations
   - `lucide-react`: Icons
   - `react-dropzone`: File upload UI
-- **Pages**:
+- **Pages**:`
   - `LandingPage`: Hero section, features.
   - `Dashboard`: Main analysis view.
   - `Auth`: Login/Register.

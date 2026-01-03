@@ -40,7 +40,8 @@ function App() {
     } catch (err) {
       console.error(err);
       if (!err.response) {
-        setError('Cannot connect to server. Please ensure the backend is running on port 5000.');
+        const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+        setError(`Cannot connect to server at ${API_URL}. Please ensure the backend is running on port 5000.`);
       } else {
         setError(err.response?.data?.error || 'Failed to analyze resume. Please try again.');
       }
